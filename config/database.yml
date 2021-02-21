@@ -17,5 +17,5 @@ test:
 production:
   <<: *default
   database: find_my_coffe_api_production
-  username: find_my_coffe_api
+  username: nhxezswnetjdkl
   password: <%= ENV['FIND_MY_COFFE_API_DATABASE_PASSWORD'] %>
